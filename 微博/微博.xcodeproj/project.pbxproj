@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6121B2541DAE232500B748D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B2531DAE232500B748D8 /* AppDelegate.swift */; };
+		6121B2591DAE232500B748D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6121B2571DAE232500B748D8 /* Main.storyboard */; };
+		6121B25B1DAE232500B748D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6121B25A1DAE232500B748D8 /* Assets.xcassets */; };
+		6121B26C1DAE36F500B748D8 /* WBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B26B1DAE36F500B748D8 /* WBTabBarController.swift */; };
+		6121B26E1DAE370C00B748D8 /* WBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B26D1DAE370C00B748D8 /* WBNavigationController.swift */; };
+		6121B2701DAE382500B748D8 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B26F1DAE382500B748D8 /* WBBaseViewController.swift */; };
+		6121B2721DAE390E00B748D8 /* WBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B2711DAE390E00B748D8 /* WBHomeViewController.swift */; };
+		6121B2741DAE392800B748D8 /* WBMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B2731DAE392800B748D8 /* WBMessageViewController.swift */; };
+		6121B2761DAE394400B748D8 /* WBDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B2751DAE394400B748D8 /* WBDiscoverViewController.swift */; };
+		6121B2781DAE395500B748D8 /* WBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6121B2771DAE395500B748D8 /* WBProfileViewController.swift */; };
+		6179498B1DB0AD2E00AE108C /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179498A1DB0AD2E00AE108C /* UIBarButtonItem+Extension.swift */; };
+		6179498D1DB0BB8300AE108C /* WBComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6179498C1DB0BB8300AE108C /* WBComposeViewController.swift */; };
+		61BA55111DB07E45007C115C /* WBTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BA55101DB07E44007C115C /* WBTestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6121B2501DAE232500B748D8 /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6121B2531DAE232500B748D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6121B2581DAE232500B748D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6121B25A1DAE232500B748D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6121B25F1DAE232500B748D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6121B26B1DAE36F500B748D8 /* WBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTabBarController.swift; sourceTree = "<group>"; };
+		6121B26D1DAE370C00B748D8 /* WBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNavigationController.swift; sourceTree = "<group>"; };
+		6121B26F1DAE382500B748D8 /* WBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
+		6121B2711DAE390E00B748D8 /* WBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBHomeViewController.swift; sourceTree = "<group>"; };
+		6121B2731DAE392800B748D8 /* WBMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBMessageViewController.swift; sourceTree = "<group>"; };
+		6121B2751DAE394400B748D8 /* WBDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBDiscoverViewController.swift; sourceTree = "<group>"; };
+		6121B2771DAE395500B748D8 /* WBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBProfileViewController.swift; sourceTree = "<group>"; };
+		6179498A1DB0AD2E00AE108C /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		6179498C1DB0BB8300AE108C /* WBComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WBComposeViewController.swift; path = "微博/Classes/Tools/WBComposeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		61BA55101DB07E44007C115C /* WBTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBTestViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6121B24D1DAE232500B748D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6121B2471DAE232500B748D8 = {
+			isa = PBXGroup;
+			children = (
+				6121B2521DAE232500B748D8 /* 微博 */,
+				6121B2511DAE232500B748D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6121B2511DAE232500B748D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2501DAE232500B748D8 /* 微博.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6121B2521DAE232500B748D8 /* 微博 */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2531DAE232500B748D8 /* AppDelegate.swift */,
+				6121B2651DAE366A00B748D8 /* Classes */,
+				6121B2571DAE232500B748D8 /* Main.storyboard */,
+				6121B25A1DAE232500B748D8 /* Assets.xcassets */,
+				6121B25F1DAE232500B748D8 /* Info.plist */,
+			);
+			path = "微博";
+			sourceTree = "<group>";
+		};
+		6121B2651DAE366A00B748D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6121B26A1DAE369D00B748D8 /* Main */,
+				6121B2671DAE366A00B748D8 /* Home */,
+				6121B2681DAE366A00B748D8 /* Message */,
+				61CB05611DAF764600B6A2E8 /* Compose */,
+				6121B2661DAE366A00B748D8 /* Discover */,
+				6121B2691DAE366A00B748D8 /* Profile */,
+				617949881DB0ACB700AE108C /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6121B2661DAE366A00B748D8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2751DAE394400B748D8 /* WBDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		6121B2671DAE366A00B748D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2711DAE390E00B748D8 /* WBHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6121B2681DAE366A00B748D8 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2731DAE392800B748D8 /* WBMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		6121B2691DAE366A00B748D8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6121B2771DAE395500B748D8 /* WBProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6121B26A1DAE369D00B748D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				61BA550F1DB07E33007C115C /* 测试 */,
+				6121B26B1DAE36F500B748D8 /* WBTabBarController.swift */,
+				6121B26D1DAE370C00B748D8 /* WBNavigationController.swift */,
+				6121B26F1DAE382500B748D8 /* WBBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		617949881DB0ACB700AE108C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6179498A1DB0AD2E00AE108C /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		61BA550F1DB07E33007C115C /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				61BA55101DB07E44007C115C /* WBTestViewController.swift */,
+			);
+			path = "测试";
+			sourceTree = "<group>";
+		};
+		61CB05611DAF764600B6A2E8 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				6179498C1DB0BB8300AE108C /* WBComposeViewController.swift */,
+			);
+			name = Compose;
+			path = Profile/Compose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6121B24F1DAE232500B748D8 /* 微博 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6121B2621DAE232500B748D8 /* Build configuration list for PBXNativeTarget "微博" */;
+			buildPhases = (
+				6121B24C1DAE232500B748D8 /* Sources */,
+				6121B24D1DAE232500B748D8 /* Frameworks */,
+				6121B24E1DAE232500B748D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微博";
+			productName = "微博";
+			productReference = 6121B2501DAE232500B748D8 /* 微博.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6121B2481DAE232500B748D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wanglei;
+				TargetAttributes = {
+					6121B24F1DAE232500B748D8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6121B24B1DAE232500B748D8 /* Build configuration list for PBXProject "微博" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6121B2471DAE232500B748D8;
+			productRefGroup = 6121B2511DAE232500B748D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6121B24F1DAE232500B748D8 /* 微博 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6121B24E1DAE232500B748D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6121B25B1DAE232500B748D8 /* Assets.xcassets in Resources */,
+				6121B2591DAE232500B748D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6121B24C1DAE232500B748D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6121B2701DAE382500B748D8 /* WBBaseViewController.swift in Sources */,
+				6121B2781DAE395500B748D8 /* WBProfileViewController.swift in Sources */,
+				6121B2761DAE394400B748D8 /* WBDiscoverViewController.swift in Sources */,
+				6121B26C1DAE36F500B748D8 /* WBTabBarController.swift in Sources */,
+				6121B2721DAE390E00B748D8 /* WBHomeViewController.swift in Sources */,
+				6179498B1DB0AD2E00AE108C /* UIBarButtonItem+Extension.swift in Sources */,
+				6121B2541DAE232500B748D8 /* AppDelegate.swift in Sources */,
+				6121B26E1DAE370C00B748D8 /* WBNavigationController.swift in Sources */,
+				6121B2741DAE392800B748D8 /* WBMessageViewController.swift in Sources */,
+				61BA55111DB07E45007C115C /* WBTestViewController.swift in Sources */,
+				6179498D1DB0BB8300AE108C /* WBComposeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6121B2571DAE232500B748D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6121B2581DAE232500B748D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6121B2601DAE232500B748D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6121B2611DAE232500B748D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6121B2631DAE232500B748D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6121B2641DAE232500B748D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "微博/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanglei.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6121B24B1DAE232500B748D8 /* Build configuration list for PBXProject "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6121B2601DAE232500B748D8 /* Debug */,
+				6121B2611DAE232500B748D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6121B2621DAE232500B748D8 /* Build configuration list for PBXNativeTarget "微博" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6121B2631DAE232500B748D8 /* Debug */,
+				6121B2641DAE232500B748D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6121B2481DAE232500B748D8 /* Project object */;
+}
